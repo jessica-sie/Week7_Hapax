@@ -19,7 +19,7 @@ def hapax():
 
     splitCon = contents.split() # [list,list2]
     for word in splitCon:
-        wordDict[word] = wordDict.get(word,0)+ 1
+        wordDict[word] = wordDict.get(word,0)+1
 
     liHapax=[]
     #append single keys into list 
