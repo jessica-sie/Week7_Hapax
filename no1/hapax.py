@@ -1,6 +1,12 @@
+import os
+
 import re
 def hapax():
+
     fileN = input("enter file name: ")
+    os.chdir('C:\\Users\\Jessica\\Documents\\GitHub\\Week7_Hapax\\no1')
+    # _cwd = os.getcwd() #test
+    # print(_cwd) # test
     file = open(fileN, "r")
     contents = file.read()
     # print(contents)#test
